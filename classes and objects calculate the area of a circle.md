@@ -14,7 +14,7 @@ To write a Python program that calculates the **area of a circle** based on the 
 ```
 import math
 class Saveetha:
-    def _init_(self, r):
+    def __init__(self, r):
         self.area = math.pi * (r ** 2) 
     def slot(self):
         print("Area of circle:", round(self.area, 2))
